@@ -17,6 +17,7 @@ tasks:
       - health-check.yaml
       - jaas-config.yaml
       - krb5-config.yaml
+      - enable-tls.yaml
       - statefulset.yaml
   update:
     resources:
@@ -28,6 +29,7 @@ tasks:
     - health-check.yaml
     - jaas-config.yaml
     - krb5-config.yaml
+    - enable-tls.yaml
     - statefulset.yaml
   not-allowed:
     resources:
